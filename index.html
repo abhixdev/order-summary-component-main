@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-Paleblue">
+    <section>
+      <div class="flex h-screen items-center justify-center font-medium">
+        <div class="max-w-xs rounded-2xl bg-white shadow-lg md:max-w-[22rem]">
+          <div class="flex flex-col space-y-8">
+            <!-- Image -->
+            <img
+              class="rounded-t-2xl"
+              src="./images/illustration-hero.svg"
+              alt=""
+            />
+            <!-- Content Div -->
+            <div
+              class="m-6 flex flex-col items-center justify-center space-y-5"
+            >
+              <h1 class="font-Darkblue text-lg font-black">Order Summary</h1>
+              <p class="mx-4 text-center text-sm">
+                You can now listen to millions of songs, audiobooks, and
+                podcasts on any device anywhere you like!
+              </p>
+              <div
+                class="plans bg-Verypaleblue flex w-full items-center justify-between space-x-4 rounded-xl p-4 text-sm"
+              >
+                <img class="w-fit" src="./images/icon-music.svg" alt="" />
+                <div>
+                  <p class="font-black">Annual Plan</p>
+                  <p>$59.99/year</p>
+                </div>
+                <p
+                  class="text-Brightblue hover:text-Darkblue font-bold underline underline-offset-2 hover:cursor-pointer"
+                >
+                  Change
+                </p>
+              </div>
+              <a
+                class="bg-Brightblue shadow-Brightblue hover:bg-Darkblue hover:shadow-Darkblue w-full rounded-xl py-3 text-center font-bold text-white shadow-md duration-300"
+                href="#"
+                >Proceed to Payment</a
+              >
+              <a
+                class="text-Desaturatedblue hover:text-Darkblue w-full py-3 pb-5 text-center font-bold"
+                href="#"
+                >Cancel Order</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center text-sm">
+      <span class="font-medium">Made by</span>
+      <a
+        class="hover:text-grayishBlue font-bold text-blue-500 duration-300 hover:text-blue-800"
+        href="https://github.com/abhixdev"
+        target="_blank"
+        >Abhishek Kumar</a
+      >
+    </footer>
+  </body>
+</html>
